@@ -1,0 +1,48 @@
+class webDevelopment{
+
+    studentName: string;
+    studentID: number;
+    studentAge: number;
+    studentEmail: string;
+    studentAddress: string;
+
+    getStudentName(){
+        console.log("Student Name is: "+ this.studentName);
+    }
+
+    getStudentID() {
+        console.log("Student Id is: " + this.studentID);
+    }
+
+    getStudentAge() {
+        console.log("Student Age is: " + this.studentAge);
+    }
+    
+    getStudentEmail() {
+        console.log("Student Email is: " + this.studentEmail);
+    }
+
+    getStudentAddress() {
+        console.log("Student Email is: " + this.studentAddress);
+    }    
+}
+
+let web_Dev_one = new webDevelopment();
+web_Dev_one.studentName = "Apu Barman";
+web_Dev_one.getStudentName();
+
+let web_Dev_two = new webDevelopment();
+web_Dev_two.studentID = 1;
+web_Dev_two.getStudentID();
+
+let web_Dev_three = new webDevelopment();
+web_Dev_three.studentAge = 21;
+web_Dev_three.getStudentAge();
+
+let web_Dev_four = new webDevelopment();
+web_Dev_four.studentEmail = "apu.barman.cse@ulab.edu.bd";
+web_Dev_four.getStudentEmail();
+
+let web_Dev_five = new webDevelopment();
+web_Dev_four.studentAddress = "55 no. S.K Das Road Gandaria Dhaka-1204";
+web_Dev_four.getStudentAddress();
