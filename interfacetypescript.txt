@@ -1,0 +1,28 @@
+interface PropertisUser{
+    firstname: string,
+    lastname: string,
+    gender: string,
+    age: number,
+    address: string,
+    phonenumber: string,
+}
+
+let aboutUser = (aboutUserPropertis: PropertisUser ) => {
+    console.log(
+        aboutUserPropertis.firstname,
+        aboutUserPropertis.lastname,
+        aboutUserPropertis.gender,
+        aboutUserPropertis.age,
+        aboutUserPropertis.address,
+        aboutUserPropertis.phonenumber
+    )
+}
+
+aboutUser({
+    firstname: "Apu",
+    lastname: "Barman",
+    gender: "Male",
+    age: 22,
+    address: "55 no. SK Das Road Gandaria Dhaka-1204",
+    phonenumber: "01677251996"
+});
